@@ -15,21 +15,22 @@ body,
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
   height: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #e0e0e0;
+  background: transparent;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #475569;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #64748b;
 }
